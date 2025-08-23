@@ -14,7 +14,7 @@ const itemsData = [
     },
     {
         id: 3,
-        title: "Колизей",
+        title: "Хлопок",
         image: "тир1/сосновое бревно.jpg",
         location: "Рим, Италия"
     },
@@ -121,4 +121,5 @@ function sortItems(sortBy) {
         return 0;
     });
     createItems(sortedItems);
+
 }
